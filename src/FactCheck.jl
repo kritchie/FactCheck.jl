@@ -42,7 +42,7 @@ end
 # with the same names in Base.Test, except for the addition of the
 # `ResultMetadata` type that is used to retain information about the test,
 # such as its file, line number, description, etc.
-abstract Result
+abstract type Result end
 
 type ResultMetadata
     line
